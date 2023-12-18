@@ -1,84 +1,184 @@
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-         <title>Portfolio</title>
-    </head>
-    <body>
-        <header id="home">
-                <h1 >
-                  <a >Firas.</a>
-                </h1>
-                <hr>
-                 <a href="#home">Home.</a>
-                    
-                <a href="#about">About.</a>
-                    
-                <a href="#skills">Skills.</a>
-                    
-                <a href="#portfolio">Portfolio.</a>
-                    
-                <a href="#contact">Contact.</a>
-                <hr>
-            
-        </header>
-        <content>
-            <h1 id="about">About Me</h1>
-            <table>
-                <tr>
-                    <td><img src="images/firas.png"></td>
-                    <td><p>Hi! I'm Firas Mahjoubi, and I'm a developer who has passion for building clean web applications with intuitive functionalities. I enjoy the process of turning ideas into reality using creative solutions. I'm always curious about learning new skills, tools, and concepts.</p></td>
-            
-                </tr>
-                <tr>
-                    <td></td><td><button>Download CV</button></td>
-                </tr>
-            </table>
-            <h1 id="skills">MY Skills</h1>
-            <h2>What My Programming Skills Included?</h2>
-            <p>I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.</p>
-            <h3>SKILLS</h3>
-            <img src="images/html5.png"><img src="images/css3.png"><img src="images/javascript.png">
-            <h2 id="portfolio">See My Works Which Will Amaze You!</h2>
-            <p>We develop the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.</p>
-            <img src="images/project-1.png" height="100" width="100"><img src="images/project-2.png"height="100" width="100"><img src="images/project-3.png"height="100" width="100">
-            <img src="images/project-4.png" height="100" width="100"> <img src="images/project-5.png" height="100" width="100">
-            <fieldset style="align:center" id="contact" >
-                <legend style="color:red" >Contact-ME</legend>
-                <table >
-                    <tr>
-                        <td>
-                            <h2 >Have You Any Project? <br> Please Drop a Message</h2>
-                            <p>Get in touch and let me know how i can help.<br> Fill out the form and i'll be in touch as soon as possible.</p>
+<!DOCTYPE html>
+<html>
 
-                        </td>
-                        <td>
-                            <form action="method=">
-                                <table>
-                                    <tr>
-                                        <td>Name</td><td><input type="text"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Email</td><td><input type="email" placeholder="@esprit.tn"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Phone</td><td><input type="text" placeholder="+216 00 000 000" </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Message</td><td><textarea  placeholder="Write message..." cols="40" rows="10"></textarea></td>
-                                    </tr>
-                                    <tr><td></td><td><button>SEND</button></td></tr>
-                                </table>
-                            </form>
-                        </td>
-                    </tr>
-                </table>
-            </fieldset>
-            <h2>Address:</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1595.3142066135554!2d10.189755182817844!3d36.89923673362537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cb75abbb1733%3A0x557a99cdf6c13b7b!2sESPRIT%20Ecole%20Sup%C3%A9rieure%20Priv%C3%A9e%20d&#39;Ing%C3%A9nierie%20et%20de%20Technologies!5e0!3m2!1sfr!2stn!4v1700259646388!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </content>
-        <footer>
-            <a>Phone: +216 29 369 909
-            </a><br>
-            <a>Email: mahjoubi.firas@esprit.tn</a>
-        </footer>
-    </body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Devlo<span>pe</span>r..</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services" >Services</a></li>
+			<li><a href="#portfolio" >Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>Firas</h1>
+			<h3>Website <span>Designer.</span></h3>
+			<p>we Developer with 5+ years experience that keep customers <br> coming for about services make best effort.</p>
+			<div class="button">
+				<a href="#" class="btn">About Me</a>
+			</div>
+
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/firas.png">
+		</div>
+		<div class="about-text">
+			<h2>About<span>Me</span></h2>
+			<h4>Website Designer!</h4>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+				Ad quam qui repellat vero distinctio. Saepe porro dolores
+				 nihil aliquid totam autem! Animi vel, veritatis illo inventore
+				  expedita optio accusamus nihil?
+				</p>
+				<a href="#" class="btn">More About</a>
+		</div>
+
+	</section>
+	<section class="services" id="services">
+		<div class="main-text">
+			<h2><span>My</span>Services</h2>
+		</div>
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt'></i>
+				</div>
+				<h3>Web Design</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic possimus eos eligendi. Modi aperiam, deserunt ipsam aliquid consequuntur consectetur id. Impedit ex itaque voluptatibus excepturi vero neque dignissimos doloremque enim?</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt'></i>
+				</div>
+				<h3>Creative Design</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic possimus eos eligendi. Modi aperiam, deserunt ipsam aliquid consequuntur consectetur id. Impedit ex itaque voluptatibus excepturi vero neque dignissimos doloremque enim?</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt'></i>
+				</div>
+				<h3>Creative Design</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic possimus eos eligendi. Modi aperiam, deserunt ipsam aliquid consequuntur consectetur id. Impedit ex itaque voluptatibus excepturi vero neque dignissimos doloremque enim?</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+
+		</div>
+	</section>
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<h2><span>latest</span>Project</h2>
+		</div>
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/project1.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 best Design's update for the top web design & devolopment compaines.</p>
+					<a href="#"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/project2.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 best Design's update for the top web design & devolopment compaines.</p>
+					<a href="#"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/project3.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 best Design's update for the top web design & devolopment compaines.</p>
+					<a href="#"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/project4.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 best Design's update for the top web design & devolopment compaines.</p>
+					<a href="#"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/project5.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 best Design's update for the top web design & devolopment compaines.</p>
+					<a href="#"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/project6.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 best Design's update for the top web design & devolopment compaines.</p>
+					<a href="#"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4>If you have any project in your mind.</h4>
+			<p>I'm a website Designer - creating bold & brave interface design for compaines all across the world.</p>
+			<div class="list">
+				<li><a href="#">+216 29 369 909</a></li>
+				<li><a href="#">mahjoubi.firas@esprit.tn</a></li>
+				<li><a href="#">Like Share & Subscribe</a></li>
+			</div>
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-facebook'></i></a>
+				<a href="#"><i class='bx bxl-twitter'></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt'></i></a>
+				<a href="#"><i class='bx bxl-youtube'></i></a>
+			</div>
+
+		</div>
+		<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="Your Name" required>
+				<input type="email" placeholder="Your Email" required>
+				<input type="number" placeholder="your Mobile Number" required>
+				<textarea name="" id="" cols="35" rows="10" placeholder="How can I Help You" required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+
+	</section>
+	<section class="end">
+		<div class="last-text">
+			<p>Design By Firas Mahjoubi</p>
+		</div>
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+		</div>
+	</section>
+
+</body>
+<script src="script.js"></script>
 </html>
